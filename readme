@@ -1,0 +1,21 @@
+# Sistema de Cálculo de Notas
+
+## Descrição
+Este programa é uma ferramenta simples para calcular as notas de alunos, permitindo determinar se foram aprovados, estão em recuperação ou reprovados.
+
+## Funcionalidades
+- Entrada do nome do aluno.
+- Entrada de várias notas para cada aluno.
+- Cálculo da média das notas.
+- Exibição do status do aluno (Aprovado, Recuperação, Reprovado).
+
+## Como Usar
+1. Execute o programa.
+2. Siga as instruções na tela para inserir o nome do aluno e as notas.
+3. O programa mostrará o resultado e perguntará se você deseja calcular as notas de outro aluno.
+4. Para encerrar, digite 'n' quando solicitado.
+
+## Tecnologias
+- Este programa foi escrito em pseudocódigo e pode ser adaptado para qualquer linguagem de programação.
+
+
