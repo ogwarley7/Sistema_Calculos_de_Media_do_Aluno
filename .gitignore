@@ -1,0 +1,7 @@
+# Ignorar arquivos de sistema
+*.log
+*.tmp
+
+# Ignorar pastas de compilação
+bin/
+obj/
