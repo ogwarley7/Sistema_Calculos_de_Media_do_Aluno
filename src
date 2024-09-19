@@ -1,0 +1,43 @@
+programa
+{	
+	funcao inicio()
+	{
+		cadeia nome
+		caracter condicao 
+	  inteiro contador = 1 ,qt = 0
+	  real numero,media ,soma = 0.0
+       escreva("Quer calcular as notas de um aluno? Sim(s) ou Não(n)")
+       leia(condicao)
+       
+       enquanto(condicao != 'n'){
+       escreva("digite o nome do aluno: ")
+       leia(nome)
+	  escreva("Quantas avaliações deseja digitar?")
+	  leia(qt)
+	  enquanto(contador <= qt){
+	  	limpa()
+	  	escreva("digite a ",contador, "º nota: ")
+	  	leia(numero)
+	  	soma += numero
+	  	contador += 1
+	  }
+	     media = soma / qt
+	 se(media >= 6){
+	 	escreva("Aluno, ",nome ," foi aprovado, sua média foi: ", media)
+	 }
+	 se(media >= 5 e  media < 6){
+	 	escreva("Aluno, ",nome ," está de recuperação, sua média foi: ", media)
+	 }
+	 se(media < 5){
+	 	escreva("Aluno, ",nome ," foi reprovado, sua média foi: ", media)
+	 }
+	 escreva("\n Quer calcular as notas de mais um aluno? Sim(s) ou Não(n)")
+	 leia(condicao)
+      contador = 1
+      media = 0.0
+      soma = 0.0
+      qt = 0
+       }
+       escreva("Sistema finalizado!")
+	}
+}
