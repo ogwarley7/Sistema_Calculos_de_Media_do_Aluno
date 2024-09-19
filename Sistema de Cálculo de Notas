@@ -1,0 +1,8 @@
+Sistema de Cálculo de Notas
+
+Descrição: Este programa permite que usuários insiram o nome de um aluno e suas notas de avaliações. O sistema calcula a média das notas e informa se o aluno foi aprovado, está em recuperação ou foi reprovado, com base nas seguintes regras:
+
+Aprovado: média >= 6
+Recuperação: 5 <= média < 6
+Reprovado: média < 5
+Os usuários podem repetir o processo para calcular as notas de vários alunos até decidirem encerrar o programa.
